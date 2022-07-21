@@ -7,10 +7,18 @@ package by.training.exproject.task2;
 
 public class Task2 {
 
-	public String animal;
-	public String color;
-	public String name;
-	public boolean biting;
+	private String animal;
+	private String color;
+	private String name;
+	private boolean biting;
+	
+	public Task2(String a, String c, String n, boolean b){
+		animal = a;
+		color = c;
+		name = n;
+		biting = b;
+	}
+	
 
 	public String getAnimal() {
 		return animal;
