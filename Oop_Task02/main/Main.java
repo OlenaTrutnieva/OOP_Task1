@@ -24,9 +24,9 @@ public class Main {
 
 	public static Task2 init() {
 
-		Task2 cat = new Task2();
+		Task2 cat = new Task2("adfa","adaf","affaf",true);
 
-		cat.animal = "Cat";
+		cat.setAnimal("Cat");
 		cat.color = "Red";
 		cat.name = "Fisher";
 		cat.biting = true;
